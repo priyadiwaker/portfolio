@@ -437,7 +437,7 @@
     .page2 .text p{
        font-size: 4vw;
         width: 85vw;
-        top: 5%;
+       top: 38%;
         line-height: 28px;
     }
 }
@@ -682,8 +682,8 @@
     .page2 .text p{
        font-size: 4vw;
     width: 85vw;
-    top: 5%;
-    line-height: 72px;
+   top: 53%;
+    line-height: 55px;
     display: flex;
     text-align: center;
     }
@@ -897,8 +897,8 @@
     .page2 .text p{
           font-size: 3vw;
     width: 85vw;
-    top: 5%;
-    line-height: 46px;
+    top: 42%;
+    line-height: 55px;
     display: flex;
     text-align: center;
     }
@@ -1144,8 +1144,8 @@
     .page2 .text p{
         font-size: 3vw;
         width: 85vw;
-        top: 5%;
-        line-height: 46px;
+        top: 53%;
+    line-height: 55px;
         display: flex;
         text-align: center;
     }
@@ -1386,8 +1386,8 @@
     .page2 .text p{
         font-size: 4vw;
         width: 79vw;
-        top: 38%;
-        line-height: 57px;
+        top: 53%;
+    line-height: 75px;
         display: flex;
         text-align: center;
     }
