@@ -216,13 +216,12 @@
     }
 
     .page2 .text p{
-        font-size: 5vw;
-        width: 94vw;
-        top: 40%;
-        line-height: 36px;
-        display: flex;
-        text-align: center;
-        left: -35px;
+       font-size: 4vw;
+    width: 85vw;
+    top: 5%;
+    line-height: 40px;
+    display: flex;
+    text-align: center;
     }
 }
 
@@ -436,13 +435,10 @@
     }
 
     .page2 .text p{
-        font-size: 5vw;
-        width: 94vw;
-        top: 40%;
-        line-height: 36px;
-        display: flex;
-        text-align: center;
-        left: -28px;
+       font-size: 4vw;
+        width: 85vw;
+        top: 5%;
+        line-height: 28px;
     }
 }
 
@@ -684,12 +680,12 @@
     }
 
     .page2 .text p{
-        font-size: 4vw;
-        width: 79vw;
-        top: 38%;
-        line-height: 57px;
-        display: flex;
-        text-align: center;
+       font-size: 4vw;
+    width: 85vw;
+    top: 5%;
+    line-height: 72px;
+    display: flex;
+    text-align: center;
     }
 } 
 
@@ -899,12 +895,12 @@
     }
 
     .page2 .text p{
-        font-size: 4vw;
-        width: 79vw;
-        top: 38%;
-        line-height: 57px;
-        display: flex;
-        text-align: center;
+          font-size: 3vw;
+    width: 85vw;
+    top: 5%;
+    line-height: 46px;
+    display: flex;
+    text-align: center;
     }
 }
 
@@ -1146,10 +1142,10 @@
     }
 
     .page2 .text p{
-        font-size: 4vw;
-        width: 79vw;
-        top: 38%;
-        line-height: 57px;
+        font-size: 3vw;
+        width: 85vw;
+        top: 5%;
+        line-height: 46px;
         display: flex;
         text-align: center;
     }
@@ -1572,12 +1568,11 @@
     }
 
     .page2 .text p{
-        font-size: 3vw;
-        width: 77vw;
-        top: 40%;
-        line-height: 50px;
-        display: flex;
-        text-align: center;
-        left:2vw;
+        font-size: 2vw;
+    width: 85vw;
+    top: 5%;
+    line-height: 53px;
+    display: flex;
+    text-align: center;
     }
 }
