@@ -1,4 +1,9 @@
 @media(max-width:500px){
+    .page5 a img{
+        height: 12vh;
+        width: 26vw;
+    
+    }
 
     .page5 p{
         font-size: 3vw;
@@ -223,6 +228,11 @@
 
 
 @media(width:280px){
+    .page5 a img{
+        height: 12vh;
+        width: 26vw;
+    
+    }
     .page5{
         top: 624vh;
         height: 70vh;
@@ -439,6 +449,13 @@
 
 
  @media (width:820px ){
+    .page5 p{
+        top: 97%;
+    }
+    .page5 a img{
+        width: 24vw;
+    
+    }
     .page5{
         top: 669vh;
         height: 100vh;
@@ -677,6 +694,11 @@
 } 
 
 @media (width:540px ){
+    .page5 a img{
+        height: 15vh;
+        width: 22vw;
+    
+    }
     .page5{
         top: 670vh;
         height: 110vh;
@@ -887,6 +909,13 @@
 }
 
 @media (width:768px ){
+    .page5 p{
+        top: 97%;
+    }
+    .page5 a img{
+        width: 24vw;
+    
+    }
     .page5{
         top: 669vh;
         height: 110vh;
@@ -1126,6 +1155,13 @@
     }
 }
 @media (width:912px ){
+    .page5 p{
+        top: 97%;
+    }
+    .page5 a img{
+        width: 24vw;
+    
+    }
     .page5{
         top: 669vh;
         height: 100vh;
