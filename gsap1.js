@@ -1,5 +1,22 @@
 
+gsap.from(".name",{
+  top:"-100%",
+  opacity:0,
+  duration:2,
+   delay:1
+})
 
+gsap.from(".portfolio",{
+  left:"-20%",
+  duration:1,
+  delay:2
+})
+
+gsap.from(".open",{
+  left:"100%",
+  duration:0.5,
+  delay:3
+})
 function scrBy(x, y) {
     window.scrollBy({
       left: x, top: y,
