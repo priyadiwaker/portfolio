@@ -7,7 +7,7 @@ gsap.from(".name",{
 })
 
 gsap.from(".portfolio",{
-  left:"-50%",
+  left:"-100%",
   duration:1,
   delay:2
 })
