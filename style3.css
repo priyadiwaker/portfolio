@@ -35,7 +35,7 @@ html, body{
 .page1{
     width: 100%;
     min-height: 100vh;
-  background: linear-gradient(8deg, rgba(7, 7, 7, 0.847), rgba(0, 0, 0, 0.79)), url(images/photo-1580927752452-89d86da3fa0a.avif);
+    background: linear-gradient(8deg, rgba(7, 7, 7, 0.847), rgba(0, 0, 0, 0.79)), url(/images/photo-1580927752452-89d86da3fa0a.avif);
     background-size: cover;
     background-position: top;
     position: fixed;
@@ -195,7 +195,7 @@ html, body{
 
 .menu ul li a:hover{
     color: rgb(255, 213, 0);
-    letter-spacing: 3px;
+    letter-spacing: 7px;
 }
 
 
@@ -253,11 +253,10 @@ html, body{
     height: 64vh;
     left: 12vw;
     top: 15vw;
-    duration:2s;
 }
 
 .page2 .text p{
-   color: #ffffff8f;
+    color: #ffffff8f;
     font-size: 2vw;
     width: 80vw;
     display: flex;
@@ -269,29 +268,7 @@ html, body{
     top: 5vh;
     right: 0vw;
     position: absolute;
-     duration:2s;
-}
-.repo{
-    position: absolute;
-    width: 12rem;
-    height: 3rem;
-    background-color: #d96a6a;
-    left: 2%;
-    top: 50rem;
-    border-radius: 3rem;
-    box-shadow: 1px -1px 16px #d96a6a;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    letter-spacing: 2px;
-}
-
-.repo img{
-    width: 2rem;
+    /* background-color: red; */
 }
 
 
@@ -337,7 +314,6 @@ html, body{
    text-align: center;
    justify-content: center;
    border-radius: 2vw;
-     duration:2s;
 }
 
 .skill{
@@ -386,6 +362,29 @@ html, body{
 
 .skills-container a i{
     font-size: 6vw;
+}
+
+.repo{
+    position: absolute;
+    width: 12rem;
+    height: 3rem;
+    background-color: #d96a6a;
+    left: 2%;
+    top: 50rem;
+    border-radius: 3rem;
+    box-shadow: 1px -1px 16px #d96a6a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+.repo img{
+    width: 2rem;
 }
 
 
@@ -624,8 +623,9 @@ html, body{
     height: 80vh;
     position: absolute;
     background-color: rgb(19, 19, 18);
-    top: 600vh;
+    top: 650vh;
 }
+
 
 
 .page5 h1{
@@ -677,4 +677,50 @@ html, body{
     align-items: center;
     margin-bottom: -5vh;
 
+}
+
+
+#progress{
+    width: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 10px;
+   background-color: white;;
+    z-index: 9999999999999999999999999;
+}
+
+
+
+.backend{
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(25, 25, 25);
+    top: 100%;
+    position: absolute;
+}
+
+
+
+.backend h4{
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 2.5vw;
+    top: 0vh;
+    left: 5vw;
+    width: 30rem;
+}
+
+
+.backend h5{
+    color: white;
+    top: 34%;
+    position: relative;
+    left: 5%;
+    width: 30%;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-block: 1rem;
 }
