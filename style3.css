@@ -253,6 +253,7 @@ html, body{
     height: 64vh;
     left: 12vw;
     top: 15vw;
+    duration:2s;
 }
 
 .page2 .text p{
@@ -268,6 +269,7 @@ html, body{
     top: 5vh;
     right: 0vw;
     position: absolute;
+     duration:2s;
 }
 
 
@@ -313,6 +315,7 @@ html, body{
    text-align: center;
    justify-content: center;
    border-radius: 2vw;
+     duration:2s;
 }
 
 .skill{
