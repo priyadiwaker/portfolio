@@ -44,13 +44,15 @@ function scrBy(x, y) {
 t4.from(".page3",{
      duration:2,
     opacity:0
+  ease:Power3.easeIn
 })
 
 t4.from(".skills-container",{
     duration:4,
     opacity:0,
     delay:2,
-    top:"100%"
+    top:"100%",
+  ease:Power3.easeIn
 })
 
 
