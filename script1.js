@@ -168,3 +168,12 @@ var page4 = document.querySelector(".page4")
 //         markers:true
 //     }
 // })
+
+
+
+
+ScrollTrigger.create({
+    onUpdate:function(prg){
+        gsap.to("#progress",{width: Math.floor(prg.progress * 100)+"%"});
+    }
+})
