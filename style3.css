@@ -271,6 +271,28 @@ html, body{
     position: absolute;
      duration:2s;
 }
+.repo{
+    position: absolute;
+    width: 12rem;
+    height: 3rem;
+    background-color: #d96a6a;
+    left: 2%;
+    top: 50rem;
+    border-radius: 3rem;
+    box-shadow: 1px -1px 16px #d96a6a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+.repo img{
+    width: 2rem;
+}
 
 
 /* page3 */
