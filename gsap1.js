@@ -1,4 +1,5 @@
 
+
 gsap.from(".name",{
   top:"60%",
   opacity:0,
@@ -7,8 +8,8 @@ gsap.from(".name",{
 })
 
 gsap.from(".portfolio",{
-  left:"-150%",
-  duration:1.5,
+  left:"-20%",
+  duration:1,
   delay:2
 })
 
@@ -17,6 +18,7 @@ gsap.from(".open",{
   duration:0.5,
   delay:3
 })
+
 function scrBy(x, y) {
     window.scrollBy({
       left: x, top: y,
@@ -42,18 +44,22 @@ function scrBy(x, y) {
 
 
 t4.from(".page3",{
-     duration:2,
+    duration:1,
     opacity:0
-  ease:Power3.easeIn
 })
 
 t4.from(".skills-container",{
-    duration:4,
+    duration:2,
     opacity:0,
     delay:2,
-    top:"100%",
-  ease:Power3.easeIn
+    top:"100%"
 })
 
+
+var t5 = gsap.timeline({
+  scrollTrigger:{
+    trigger:".page4"
+  }
+})
 
 
