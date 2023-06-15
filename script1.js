@@ -117,7 +117,8 @@ var page4 = document.querySelector(".page4")
     
     
     t2.from(".name",{
-        top:"35%",
+        top:"20%",
+        duration: 2
     })
     
     var t1 = gsap.timeline({
