@@ -42,7 +42,7 @@ function scrBy(x, y) {
 
 
 t4.from(".page3",{
-    duration:1,
+     duration:2,
     opacity:0
 })
 
@@ -50,7 +50,7 @@ t4.from(".skills-container",{
     duration:2,
     opacity:0,
     delay:2,
-    top:"100%"
+    top:"70%"
 })
 
 
