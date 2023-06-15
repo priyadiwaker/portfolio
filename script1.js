@@ -138,8 +138,8 @@ var page4 = document.querySelector(".page4")
     })
     
     t1.from(".text",{
-        top:"100%",
-        duration:0.5
+        top:"75%",
+        duration:2
     })
     
     tl.from(".about",{
