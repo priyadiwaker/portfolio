@@ -117,7 +117,7 @@ var page4 = document.querySelector(".page4")
     
     
     t2.from(".name",{
-        top:"100%",
+        top:"55%",
         duration: 2
     })
     
