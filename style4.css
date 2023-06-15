@@ -223,10 +223,20 @@
     display: flex;
     text-align: center;
     }
+    .repo{
+        top: 41%;
+        left: 4%;
+    }
 }
 
 
 @media(width:280px){
+    .repo {
+    top: 41%;
+    left: 4%;
+    width: 8rem;
+    height: 2.5rem;
+}
     .page5 a img{
         height: 12vh;
         width: 26vw;
@@ -445,6 +455,13 @@
 
 
  @media (width:820px ){
+     .repo{
+        top: 41%;
+    left: 10%;
+    width: 20rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    }
     .page5 p{
         top: 97%;
     }
@@ -744,7 +761,7 @@
     
     .work-container{
         height: 45vh;
-        top: 44%;
+        top: 24%;
     }
     .work-container  img{
         width: 85vw;
@@ -905,6 +922,13 @@
 }
 
 @media (width:768px ){
+    .repo{
+        top: 41%;
+    left: 10%;
+    width: 20rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    }
     .page5 p{
         top: 97%;
     }
@@ -1151,6 +1175,13 @@
     }
 }
 @media (width:912px ){
+    .repo{
+        top: 41%;
+    left: 10%;
+    width: 20rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    }
     .page5 p{
         top: 97%;
     }
@@ -1195,7 +1226,7 @@
         left: 65vw;
         color: white;
         text-decoration: none;
-        font-size: 4vw;
+        font-size: 1.5rem;
         letter-spacing: 5px;
         text-transform: uppercase;
         display: flex;
@@ -1394,6 +1425,12 @@
 }
 
 @media(width:1024px){
+    
+        .repo{
+        top: 48.5%;
+    height: 2.5rem;
+    left: 5%;
+    }
      .skills-container{
         top: 34%;
      }
@@ -1486,6 +1523,12 @@
 }
 
 @media(width:1280px){
+
+    .repo{
+        top: 48.5%;
+    height: 2.5rem;
+    left: 5%;
+    }
     .skills-container{
         top: 37%;
      }
