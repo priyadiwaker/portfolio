@@ -47,7 +47,7 @@ t4.from(".page3",{
 })
 
 t4.from(".skills-container",{
-    duration:2,
+    duration:4,
     opacity:0,
     delay:2,
     top:"70%"
