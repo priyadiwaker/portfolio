@@ -50,7 +50,7 @@ t4.from(".skills-container",{
     duration:4,
     opacity:0,
     delay:2,
-    top:"70%"
+    top:"100%"
 })
 
 
