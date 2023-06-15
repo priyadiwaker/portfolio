@@ -1,7 +1,7 @@
 
 
 gsap.from(".name",{
-  top:"60%",
+  top:"52%",
   opacity:0,
   duration:2,
    delay:1
